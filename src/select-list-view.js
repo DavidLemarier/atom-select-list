@@ -49,7 +49,7 @@ module.exports = class SelectListView {
   }
 
   registerAtomCommands() {
-    return global.atom.commands.add(this.element, {
+    return global.soldat.commands.add(this.element, {
       "core:move-up": event => {
         this.selectPrevious();
         event.stopPropagation();
