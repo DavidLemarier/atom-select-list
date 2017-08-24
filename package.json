@@ -1,16 +1,16 @@
 {
-  "name": "atom-select-list",
+  "name": "soldat-select-list",
   "version": "0.2.0",
   "description": "A general-purpose select list for use in Atom packages",
   "main": "./src/select-list-view.js",
   "scripts": {
-    "test": "atom --test test"
+    "test": "soldat --test test"
   },
   "author": "",
   "license": "MIT",
-  "atomTestRunner": "atom-mocha-test-runner",
+  "soldatTestRunner": "soldat-mocha-test-runner",
   "devDependencies": {
-    "atom-mocha-test-runner": "^0.3.0",
+    "soldat-mocha-test-runner": "^1.0.0",
     "sinon": "^2.1.0"
   },
   "dependencies": {
@@ -19,6 +19,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/atom/atom-select-list.git"
+    "url": "git+https://github.com/DavidLemarier/soldat-select-list.git"
   }
 }
